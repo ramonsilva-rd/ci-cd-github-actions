@@ -11,4 +11,4 @@ jobs:
           who-to-greet: 'Ramon Silva'
         id: hello
       - name: Echo greeting time`s
-        run: echo `The time  was ${{ stpes.hello.outputs.time }}`
+        run: echo `The time  was ${{ steps.hello.outputs.time }}`
